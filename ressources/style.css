@@ -1,0 +1,91 @@
+/***********************
+******** Global ********
+***********************/
+
+body {
+    margin: 0
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/*  Header  */
+.header {
+    position: relative;
+    background-color: rgb(73, 73, 73);
+    max-width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+.header h1 {
+    color: rgb(190, 42, 5);
+    font-size: 3em;
+}
+.header p {
+    color: white;
+    font-size: 0.8em;
+}
+.here {
+    position: absolute;
+    color: rgb(73, 73, 73);
+    font-size: 0.5em;
+    cursor: default;
+    right: 0;
+    top: 2em;
+}
+
+/*  Footer  */
+.footer {
+    background-color: rgb(155, 154, 154);
+    max-width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+/*  Main  */
+.btn_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 7px;
+    line-height: 6;
+    padding: 4em;
+    margin: 1em;
+}
+.btn_section a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(117, 117, 117, 0.5);
+    border: 2px solid rgba(102, 102, 102, 0.8);
+    border-radius: 6em;
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 2px 3px rgba(51, 51, 51, 0.548);
+    padding: 1em;
+    margin: 1em;
+    transition: 0.5s;
+}
+.btn_section a:hover {
+    background-color: rgba(206, 206, 206, 0.7);
+}
+#youtube:hover {
+    background-color: red;
+}
+#grass:hover {
+    background-color: rgba(2, 194, 2, 0.7);
+}
+#cyno:hover {
+    background-color: blueviolet;
+}
+#nothing:hover {
+    transition: 5s;
+    background-color: rgb(228, 228, 228);
+    color: rgb(228, 228, 228,0);
+    border-color: rgb(228, 228, 228,0);
+    text-shadow: none;
+    box-shadow: none;
+    cursor: default;
+}
